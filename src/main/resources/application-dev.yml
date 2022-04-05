@@ -1,8 +1,0 @@
-my:
-  custom:
-    property: abc
-  false:
-    bool: true
-module:
-  enabled: true
-

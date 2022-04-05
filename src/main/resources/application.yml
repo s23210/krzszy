@@ -6,3 +6,10 @@ my:
 module:
   enabled: false
 
+---
+
+spring:
+  profiles:
+    active: dev
+module:
+  enabled: true
