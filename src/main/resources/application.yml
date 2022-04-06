@@ -1,3 +1,6 @@
+spring:
+  profiles:
+    active: default
 my:
   custom:
     property: abc

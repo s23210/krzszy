@@ -9,10 +9,11 @@ import org.springframework.context.annotation.Profile;
 
 import java.util.List;
 
-@Configuration
 @Profile("dev")
+@Configuration
 @ConditionalOnProperty(
-        value="module.enabled",
+        prefix = "module",
+        name = "enabled",
         havingValue = "true",
         matchIfMissing = true)
 public class JazPojoConfiguration {
