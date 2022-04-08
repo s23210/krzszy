@@ -18,7 +18,7 @@ import java.util.List;
         matchIfMissing = true)
 public class JazPojoConfiguration {
     @Bean
-    public JazPojoConfiguration jazPojoConfiguration(@Value("${my.custom.property:defaultValue}") String propertiesValue, @Value("${my.false.bool}") Boolean isOn) {
+    public JazPojoConfiguration aleJazz(@Value("${my.custom.property:defaultValue}") String propertiesValue, @Value("${my.false.bool}") Boolean isOn) {
         System.out.println(propertiesValue);
         if (isOn) {
             System.out.println("działa");

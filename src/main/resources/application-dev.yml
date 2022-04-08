@@ -1,10 +1,10 @@
 spring:
   profiles:
-    active: default
+    active: dev
 my:
   custom:
     property: abc
   false:
     bool: true
 module:
-  enabled: false
+  enabled: true
