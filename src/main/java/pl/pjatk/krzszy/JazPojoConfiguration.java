@@ -11,18 +11,17 @@ import java.util.List;
 
 @Configuration
 @ConditionalOnProperty(
-        prefix = "module",
-        name = "enabled",
+        name = "module.enabled",
         havingValue = "true",
         matchIfMissing = true)
 public class JazPojoConfiguration {
     @Bean
-    public JazPojoConfiguration aleJazz(@Value("${my.custom.property:defaultValue}") String propertiesValue, @Value("${my.false.bool}") Boolean isOn) {
+    public String aleJazz(@Value("${my.custom.property:defaultValue}") String propertiesValue, @Value("${my.false.bool}") Boolean isOn) {
         System.out.println(propertiesValue);
         if (isOn) {
             System.out.println("działa");
         }
-        return new JazPojoConfiguration();
+        return "abc";
     }
     @Bean
     public JazPojo jazPojo() {
