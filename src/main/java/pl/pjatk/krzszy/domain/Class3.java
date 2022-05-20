@@ -1,8 +1,6 @@
-package pl.pjatk.krzszy;
+package pl.pjatk.krzszy.domain;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ImportResource;
-import org.springframework.stereotype.Component;
 
 public class Class3 {
     public Class3(ApplicationContext applicationContext) {

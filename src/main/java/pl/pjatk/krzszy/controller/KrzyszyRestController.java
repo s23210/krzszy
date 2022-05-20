@@ -1,7 +1,8 @@
-package pl.pjatk.krzszy;
+package pl.pjatk.krzszy.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import pl.pjatk.krzszy.domain.Car;
 
 import java.util.List;
 

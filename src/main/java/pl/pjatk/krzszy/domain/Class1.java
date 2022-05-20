@@ -1,4 +1,4 @@
-package pl.pjatk.krzszy;
+package pl.pjatk.krzszy.domain;
 
 import org.springframework.stereotype.Component;
 

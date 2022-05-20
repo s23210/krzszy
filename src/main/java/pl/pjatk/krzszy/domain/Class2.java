@@ -1,6 +1,4 @@
-package pl.pjatk.krzszy;
-
-import org.springframework.stereotype.Component;
+package pl.pjatk.krzszy.domain;
 
 public class Class2 {
     public Class2(Class1 class1) {
